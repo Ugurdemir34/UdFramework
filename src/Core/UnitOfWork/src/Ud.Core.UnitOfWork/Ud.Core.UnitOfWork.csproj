@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\DDD\src\Ud.Core.DDD.Abstractions\Ud.Core.DDD.Abstractions.csproj" />
+    <ProjectReference Include="..\Ud.Core.UnitOfWork.Abstractions\Ud.Core.UnitOfWork.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
